@@ -1,0 +1,230 @@
+<!DOCTYPE html>  
+<html>
+<head>  
+<meta charset="UTF-8">
+<title>Vjezbe</title>  
+<style>
+
+
+  body {
+    background-image: url('pozadina3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* tamna prozirna boja preko slike */
+    backdrop-filter: blur(5px); /* zamućenje */
+    z-index: -1; /* ispod sadržaja */
+  }
+
+  ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 400px;
+			} 
+	li {	display:inline; /*prikaz u jednom redu*/
+			background-color:black;
+			padding:20px;
+			border: 2px solid IndianRed;
+		}
+	li:active {background-color:IndianRed;} /*kada kliknemo na li mijenja se boja*/
+		
+	li a {	color:white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+	
+	
+	.tekst-i-slika {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px;
+}
+
+.tekst {
+  flex: 1;
+  color: white; /* ili crveno, ovisno o tvojoj temi */
+}
+
+.slika {
+  flex: 1;
+  text-align: right;
+}
+
+.slika img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* zaobljeni rubovi ako želiš */
+}
+
+</style>
+</head> 
+<body>
+
+  <h1>Vježbe</h1>
+
+  <ul>
+  <li><a href="o_meni.html">O meni</a></li>
+  <li><a href="indexantea.html">Homepage</a></li>
+  <li><a href="video.html">Video</a></li>
+</ul>
+  <h2>VEKTORSKA GRAFIKA</h2>
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 1. <br><b>
+  Napravila sam vlastiti font u programu FontForge.<br><b>
+  Sadrži slovne znakove mog imena i prezimena i sve znakove hrvatske abecede: Š, š, Č, č, Ć, ć, Đ, đ, Ž, ž<br><b>
+  </div>
+  <div class="slika">
+    <img src="AnteaČopphotoshop.jpg" alt="Opis slike" width="300" />
+  </div>
+</div>
+
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 2. <br><b>
+  Nacrtala sam Bezierove krivulje u vektorskom programu Inkscape, u zadanom koordinatnom sustavu<br><b>
+  </div>
+  <div class="slika">
+    <img src="anteačopdrugidio.jpg" alt="Opis slike" width="300" />
+  </div>
+</div>
+
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 3. <br><b>
+  Traceala sam oblik cvijeta i očiju u programu Illustrator te sam koristila razne alate poput swatch i transformacija<br><b>
+  </div>
+  <div class="slika">
+    <img src="vježba31.dio.jpg" alt="Opis slike" width="300" />
+	<img src="vježba32.dio.jpg" alt="Opis slike" width="300" />
+  </div>
+</div>
+
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 4. <br><b>
+   Izradila sam složene objekate koji se sastoje od više staza metodama spajanja (Unite/Compound path) ili oduzimanja oblika (Difference/Subtract).<br><b>
+  </div>
+  <div class="slika">
+    <img src="vježba4.antea.jpg" alt="Opis slike" width="300" />
+	<img src="vježbačetiri.jpg" alt="Opis slike" width="300" />
+  </div>
+ </div>
+  <h2>PIKSEL GRAFIKA</h2>
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 5. <br><b>
+   Retuširala sam fotografije u programu Photoshop<br><b>
+  </div>
+  <div class="slika">
+    <img src="zadatak5AnteaČop.jpg" alt="Opis slike" width="300" />
+	<img src="zadatak05Antea2.jpg" alt="Opis slike" width="300" />
+  </div>
+</div>
+
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 6. <br><b>
+  Tehnikama neinvazivnog koloriranja slike mijenjala sam boje određenih područja slike.<br><b>
+  </div>
+  <div class="slika">
+    <img src="vježba6.dm.jpg" alt="Opis slike" width="300" />
+	<img src="vježba6.Antea.jpg" alt="Opis slike" width="300" />
+  </div>
+</div>
+
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 7. <br><b>
+  Kombinirala sam više fotografija izrezivanjem dijelova različitih slika i spajala sam ih u jednu cjelinu. <br><b>
+  </div>
+  <div class="slika">
+    <img src="vježba7.Antea.jpg" alt="Opis slike" width="300" />
+	
+  </div>
+</div>
+<h2>VIDEO</h2>
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 8. <br><b>
+  Snimila sam kratki video i obradila ga kao kinemagraf<br><b>
+  </div>
+  <div class="slika">
+    <img src="mojgif (1).gif" alt="Opis slike" width="300" />
+	<img src="moj_kinemagraf (1).gif" alt="Opis slike" width="300" />
+	
+  </div>
+</div>
+
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>VJEŽBA 8. <br><b>
+  Izrezala sam i spojila par videa zajeno te sam dodala neke efekte kako bi ih dodatno uredila<br><b>
+  </div>
+  <div class="slika">
+  
+</video>
+	<video width="300" controls>
+  <source src="AnteaCop_vj9.mp4" type="video/mp4">
+  Vaš preglednik ne podržava video tag.
+</video>
+	
+  </div>
+</div>
+
+<h2>PROJEKTNI ZADATCI</h2>
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>PROJEKTNI ZADATAK 1.  <br><b>
+  Kreirala sam vlastiti font koji tvori riječ PRIRODA te sam ga ubacila u program Inkscape <br><b>
+  u kojem sam pomoću alata za crtanje Bezierovih krivulja nacrtala sliku prema zadanom predlošku <br><b>
+  </div>
+  <div class="slika">
+    <img src="Antea_Cop_projektni_zadatak1.jpg" alt="Opis slike" width="300" />
+	
+  </div>
+</div>
+
+<div class="tekst-i-slika">
+  <div class="tekst">
+    
+    <p><b>PROJEKTNI ZADATAK 2.  <br><b>
+  Kreirala sam sliku u Adobe Photoshopu kao kompoziciju više fotografija koristeći tehnike <br><b>
+retuširanja, fotomontaže i koloriranja.  <br><b>
+  
+  </div>
+  <div class="slika">
+    <img src="Antea_Cop_projektni_zadatak_2.jpg" alt="Opis slike" width="300" />
+  </div>
+</div>
+</body> 
+</html>
